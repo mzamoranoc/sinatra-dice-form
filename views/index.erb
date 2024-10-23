@@ -1,10 +1,11 @@
 <h1>Dice Roll</h1>
 <form action="/process_roll" method="get">
-  <label for="dice">Number of dice to roll:</label>
+  <label for="dice">Number of dice:</label>
   <input type="number" id="dice" name="dice" required>
 
-  <label for="sides">Number of sides per die:</label>
+  <label for="sides">How many sides per die?</label>
   <input type="number" id="sides" name="sides" required>
 
-  <input type="submit" value="Roll!">
+  <!-- This is the submit button, not counted as part of the "two input elements" -->
+  <button type="submit">Roll!</button>
 </form>
