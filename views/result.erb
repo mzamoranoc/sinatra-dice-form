@@ -1,8 +1,9 @@
-<h1>Results</h1>
+<h1><%= params[:dice] %>d<%= params[:sides] %></h1>
+
 <ul>
   <% @rolls.each do |roll| %>
     <li><%= roll %></li>
   <% end %>
 </ul>
 
-<a href="/">Roll Again</a>
+<a href="/">Roll again</a>
